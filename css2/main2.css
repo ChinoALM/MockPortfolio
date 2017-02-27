@@ -10,7 +10,7 @@
 }
 
 /*@media only screen and (max-width: 500px) {
-    .me display: none;
+    .boxphoto display: none;
 }*/
 
 * {font-family: 'Dancing Script', cursive;
@@ -44,17 +44,9 @@ p {
     background-color: #ff9900;
 }
 
-.me {
-    width: 100%;
-    height: auto;
-    display: flex;
-    padding: 10px;
-}
-
 .img-responsive {
     width: 100%;
     height: auto;
-    display: flex;
     padding: 10px;
 }
 
