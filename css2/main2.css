@@ -16,7 +16,7 @@
 * {font-family: 'Dancing Script', cursive;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     color: #000000;
     text-align: center;
 }
@@ -27,27 +27,28 @@ h1 {
     background-color: #ffffff;
 }
 
-h2, h3, h4 {
+h2, h3 {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #ffffff;
 }
 
-p {
+h4, p, a {
     text-align: center;
+    color: #ffffff;
 }
 
 .grid {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    background-color: #ff9900;
+    background-color: #003333;
 }
 
 .img-responsive {
     width: 100%;
     height: auto;
-    padding: 10px;
+    padding: 5px;
 }
 
 .col-1 {
