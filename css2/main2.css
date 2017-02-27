@@ -10,7 +10,7 @@
 }
 
 /*@media only screen and (max-width: 500px) {
-    insert headshot image somehow, display: none;
+    .me display: none;
 }*/
 
 * {font-family: 'Dancing Script', cursive;
@@ -42,6 +42,13 @@ p {
     display: flex;
     flex-wrap: wrap;
     background-color: #ff9900;
+}
+
+.me {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 10px;
 }
 
 .img-responsive {
