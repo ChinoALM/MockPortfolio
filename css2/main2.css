@@ -36,7 +36,7 @@ h3 {
     background-color: #99FF99;
 }
 
-h4, p, a, footer {
+h4, p, a {
     text-align: center;
     color: #ffffff;
 }
@@ -85,6 +85,11 @@ display: none;
 #rcorners6 {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+#copyright {
+    margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 .img-responsive {
