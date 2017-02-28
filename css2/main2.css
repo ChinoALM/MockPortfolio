@@ -9,10 +9,6 @@
     box-sizing: border-box;
 }
 
-/*@media only screen and (max-width: 500px) {
-    .boxphoto display: none;
-}*/
-
 * {font-family: 'Merienda', cursive;
 }
 
@@ -43,6 +39,20 @@ h4, p, a {
     display: flex;
     flex-wrap: wrap;
     background-color: #003333;
+}
+
+#rcorners1 {
+    border-radius: 15px 50px;
+    background: #99FF99;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+}
+
+@media (max-width: 50em) {
+#rcorners1 {
+display: none;
+}
 }
 
 .img-responsive {
