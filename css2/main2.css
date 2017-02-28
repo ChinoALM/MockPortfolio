@@ -14,9 +14,10 @@
 
 h1 {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 2px;
     color: #ffffff;
     text-align: center;
+    font-size: 45px;
 }
 
 h2 {
@@ -24,6 +25,7 @@ h2 {
     text-align: center;
     padding-top: 8px;
     padding-bottom: 8px;
+    font-size: 30px;
 /*    background-color: #99FF99;*/
 /*    border-radius: 8px;*/
 }
@@ -36,10 +38,21 @@ h3 {
     background-color: #99FF99;
 }
 
-h4, p, a {
+h4 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+p {
     text-align: center;
     color: #ffffff;
 }
+
+/*footer {
+    display: flex;
+    text-align: center;
+}*/
 
 .grid {
     width: 100%;
@@ -51,7 +64,7 @@ h4, p, a {
 #rcorners1 {
     border-radius: 5px 65px;
     background: #99FF99;
-    padding: 3px;
+    padding: 5px;
     width: 300px;
     height: auto;
 }
@@ -65,11 +78,12 @@ display: none;
 #rcorners2 {
     border-radius: 65px 5px 65px;
     background: #99FF99;
-    padding: 3px;
+    padding: 5px;
 }
 
 #quote {
     text-align: center;
+    font-size: 13px;
 }
 
 #rcorners3, #rcorners4 {
@@ -78,19 +92,23 @@ display: none;
 }
 
 #rcorners5 {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 #rcorners6 {
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 #copyright {
-    margin-left: 15px;
+    margin-left: 20px;
     margin-bottom: 10px;
 }
+
+/*#footer-icon {
+    width: calc((100% - 40px)/3);
+}*/
 
 .img-responsive {
     width: 100%;
