@@ -72,14 +72,14 @@ body {
     </div>
 
     <div id="main">
-      <span style="font-size:20px; color: #ffffff; cursor:pointer" onclick="openNav()">&#9776; menu</span>
+      <span style="font-size:20px; font-family:'Merienda', cursive; color: #ffffff; cursor:pointer" onclick="openNav()">&#9776; menu</span>
       <h1>Anthony L Morton</h1>
       <h4>Future UI/UX Developer</h4>
     </div>
   </div>
 
   <div class="col-4">
-    <img class="img-circle" id="rcorners1" src="images2/headshot_copy.jpg" alt="headshot">
+    <img id="rcorners1" src="images2/headshot_copy.jpg" alt="headshot">
   </div>
 
   <div class="col-12">
@@ -108,15 +108,17 @@ body {
   <div class="col-3">
     <img class="img-responsive" id="rcorners3" src="images2/mikeandme_copy.jpg" alt="friendship"><h3 id="rcorners6"><a href="https://www.google.com/maps/@40.2847843,-92.5265727,4.14z">Travels</a></h3></div>
 
+  <hr id="linebreak" width="80%" align="center">
+
   <div class="col-12">
     <h2 id="stage0">Stage 0: The Basics of the Web and HTML</h2>
 
-    <u>The World Wide Web, How it Works, and HTML:</u>
+    <p><b>The World Wide Web, How it Works, and HTML:</b></p>
 
     <p>The Internet was created in the early 1990s, and has some 30 billion webpages at this time; which, if I'm being completely honest, surprised me quite a bit. Components of the web include: a) <b>the user, you and your computer running a web browser</b> such as Chrome (which is what I prefer), Safari, Firefox, and Internet Explorer; b) <b>the Internet</b>; and c) <b>servers</b>; computers that are optimized for hosting files).</p>
 
     <p>HTML stands for <em>HyperText Markup Language</em> and it is the heart of the web making the web, "weblike." <br><br> Accordingly, HTML is made up of:
-    <ul>
+    <ul id="list">
       <li>text content, or <em>what you see</em></li>
       <li>markup, or <em>what it looks like</em></li>
       <li>linkes to other pages, or <em>hyperlinks</em></li>
@@ -124,16 +126,20 @@ body {
     </ul>
     </p>
 
-    <p>To troubleshoot issues you may experience with your HTML code, check out this website to <a href="https://validator.w3.org/#validate_by_input">validate your HTML code.</a></p>
+    <p>To troubleshoot issues you may experience with your HTML code, check out this website to <a href="https://validator.w3.org/#validate_by_input">validate your HTML code.</a></p><br>
 
-    <b><u>Tags and Elements:</u></b>
+    <hr id="linebreak" width="30%" align="center">
+
+    <p><b>Tags and Elements:</b></p>
 
     <p>Computers interpret language literally, so it makes sense that computer programming languages are designed to limit ambiguity. HTML documents are made up of HTML elements, and tags typically bookmark the content of an element with an opening and closing tag. These tags help computers interpret the HTML you've written with more specificity, giving your webpage more structure, and design. Tags can be used to <b>bold</b>, <em>italicize</em>, or <u>underline</u> words of text, for example. For an HTML Element Reference table in which HTML tags are ordered alphabetically, contain a description, and a note as to if that tag is supported by the current version of HTML, HTML 5, click <a href="https://www.w3schools.com/TAgs/">here</a>.</p>
 
     <p>Additonally, some elements accept values called attributes in their opening tags that provide additional information to the browser, such as the anchor tag attribute that was drawn up by, and explained, by Scott. I found this example very teachable because this anchor tag creates the hyperlink, or link, demonstrating the power of the connectivity of the web with such a simple line of code:<br><br>
-    <img class="linkpower" src="images/attr.jpg"></p>
+    <img class="linkpower" src="images/attr.jpg"></p><br>
 
-    <b><u>Inline v. block elements v. container elements:</u></b>
+    <hr id="linebreak" width="30%" align="center">
+
+    <p><b>Inline v. block elements v. container elements:</b><p>
 
     <p>Inline elements are just text, which code displays in a line in your browser window. There can be several spaces between the text of code, called whitespace, but unless otherwise styled, the text will simply end in its current line, and go to the next, such as when the single line break tag, br, is used. Also, don't forget that images are inline elements. However, unlike inline elements, block elements actually form a box around the text to which heights, and widths can be applied. Examples of block elements include p and div tags.</p>
 
@@ -147,10 +153,10 @@ body {
   <div id="stage1" class="col-12">
     <h2>Stage 1: Using HTML to Create a Structured Document</h2>
 
-    <b><u>Translating a Visual Design Into a Website:</u></b>
+    <p><b>Translating a Visual Design Into a Website:</b></p>
 
-    <p>First, you must build a good conceptual understanding of how websites work. I really liked Jessica's analogy likening the building of a website to a house in that <b>HTML files are the structure</b>, i.e. where walls are placed, and which rooms are your kitchen, dining room, living room, bedroom, etc. <b>CSS files then, are the styles</b> of your house:
-    <ul>
+    <p>First, you must build a good conceptual understanding of how websites work. I really liked Jessica's analogy likening the building of a website to a house in that <b>HTML files are the structure</b>, i.e. where walls are placed, and which rooms are your kitchen, dining room, living room, bedroom, etc. <b>CSS files then, are the styles</b> of your house:</p>
+    <p><ul id="list">
       <li>What color is the carpeting in each room?</li>
       <li>What color are the walls?</li>
       <li>What kind of decorations on your wall?</li>
@@ -158,31 +164,39 @@ body {
       <li>What is the of your ceiling?</li>
       <li>Are there windows? If so, how many?</li>
       <li>Do all the rooms have windows?</li>
-    </ul>
+    </ul></p>
 
-    <p>And these questions could go on, and on. Just as there are thousands of questions and ways (answers) to style, and thus build, a house, a website can be built the same way, conceptually. <b>Javascript files then</b> are the interactive components of your house, like the garage door opener, dimmer faders on light switches, or the remote to your entertainment center, TV, or stereo system that can <b>change some element of your house</b>.</p>
+    <p>And these questions could go on, and on. Just as there are thousands of questions and ways (answers) to style, and thus build, a house, a website can be built the same way, conceptually. <b>Javascript files then</b> are the interactive components of your house, like the garage door opener, dimmer faders on light switches, or the remote to your entertainment center, TV, or stereo system that can <b>change some element of your house</b>.</p><br>
 
-    <b><u>Developer Tools:</u></b>
+    <hr id="linebreak" width="30%" align="center">
+
+    <p><b>Developer Tools:</b></p>
 
     <p>Developer Tools is an incredible tool for designers that shows designers the structure of a webpage, as the browswer interprets it. To use Developer Tools for your webpage, simply open your file in Chrome, right click on your webpage, and select <b>Inspect</b> found at the bottom of the pop-up menu. Once developer tools opened, the dockside was displayed at the bottom of my window:<br><br>
     <img class="dockbottom" src="images/devtools1.jpg"></p>
 
     <p>However, I'd suggest changing your view so that your dock is placed to the right. In the bottom-right corner in the above screenshot, you can see how to change the display location of your dock, resulting in:<br><br><img class="dockright" src="images/devtools2.jpg"></p>
 
-    </p>Doing so made it easier for me to see my code in the browser (left side), while simultaneously viewing the elements tab, in which your coding tree is displayed (center), along with the styles column (right side).</p>
+    <p>Doing so made it easier for me to see my code in the browser (left side), while simultaneously viewing the elements tab, in which your coding tree is displayed (center), along with the styles column (right side).</p>
 
     <p>Having the dock on the right also more readily allows you to inspect the margin, border, or padding surrounding elements. You can play around with these numbers in DevTools and immediately see the impact they make on your webpage. You can also add various styling components under element.syle {--insert styling--} to immediately see the impact of say, changing a font color or size, might have on your webpage without making changes to your existing code. But, if you like what changes you see, you can then incorporate that styling into your CSS file.</p>
 
-    <p>Lastly, while in Developer Tools, you can also select the type of media screen you'd like to test your code in, including Galaxy S5, Nexux 5X, Nexus 6P, iPhone 5, iPhone 6, iPhone 6 Plus, iPad, and the iPadPro, as is displayed in the drop down menu in the top-left corner in the above screenshot. Be sure to use this feature when you're designing your own sites!</p>
+    <p>Lastly, while in Developer Tools, you can also select the type of media screen you'd like to test your code in, including Galaxy S5, Nexux 5X, Nexus 6P, iPhone 5, iPhone 6, iPhone 6 Plus, iPad, and the iPadPro, as is displayed in the drop down menu in the top-left corner in the above screenshot. Be sure to use this feature when you're designing your own sites!</p><br>
 
-    <b><u>Boxes Everywhere, Grids, and Rules:</u></b>
+    <hr id="linebreak" width="30%" align="center">
 
-    <p>Almost everything on a webpage is built on a grid system using boxes in the shapes of either squares or rectangles, which is an important concept to understand as a Front-End Designer because the quicker you learn this, the easier your life will be. If you feel like you want to be able to control the layout of your webpage(s), think in boxes and ask: how can I put boxes within other boxes to control the layout I want?</p>
+    <p><b>Boxes Everywhere, Grids, and Rules:</b></p>
 
-    <b><u>Adding CSS Style and HTML Structure:</b></u>
+    <p>Almost everything on a webpage is built on a grid system using boxes in the shapes of either squares or rectangles, which is an important concept to understand as a Front-End Designer because the quicker you learn this, the easier your life will be. If you feel like you want to be able to control the layout of your webpage(s), think in boxes and ask: how can I put boxes within other boxes to control the layout I want?</p><br>
+
+    <hr id="linebreak" width="30%" align="center">
+
+    <p><b>Adding CSS Style and HTML Structure:</b></p>
     <p>One of the most important rules of computer programming: Don't repeat yourself. It is essential to avoid repition in all areas of programming. Enter CSS or Cascading Style Sheets, which does imply the use of several CSS files that will be referenced to by HTML, all of which will impact the final, visable style of your webpage. Cascading really means the employment of the most specific rule that can be applied. Jessica described it as: "You keep going down, and down into the rule, until you find the one that best describes the elements."</p>
 
     <p>Search and Replace: You You can also think about CSS as a search and replace tool: you identify a class or a tag of the element you want to find (or match, in CSS terminology), and then what you want to do with it, or what property values to replace with different ones.</p><br>
+
+    <hr id="linebreak" width="30%" align="center">
 
     <!--Order Matters
     It also matters where you define the rules and in what order they are applied. Styles can be defined in different places and are applied in the following order, with definitions further down the list overwriting previous definitions:<br>
@@ -213,7 +227,7 @@ body {
 
     Selector: The name that you use to in order to target the elements that are assigned to a class or id attribute in the HTML.-->
 
-    <b><u>Element ID v. Element Class v. Element Alt</u></b>
+    <p><b>Element ID v. Element Class v. Element Alt</b></p>
 
     <p>Notes from UIPND Stage 0/1 video with Instructors, "instructor 1", and "instructor 2.": What's the purpose of an element id? v. an element class? Whichs situations are better for each respectively? Id's are used to uniquely identify elements in an html document, so that that element is the only one with that specific id, allowing you to directly target it with your styling. An element class then, refers to a group of elements that can be styled together. Class names should not contain periods or any other punctuation marks such as class="1.1"</p>
 
@@ -221,6 +235,8 @@ body {
 
     <p>Lastly, adding an alt to an element, to an image, for example, because it helps people with accesibility issues, say people who can't see well or if they are unable to view a computer, there are programs that read outloud, the text of a website.</p>
   </div>
+
+  <hr id="linebreak" width="80%" align="center">
 
   <div id="resources">
     <h2>Guides and Resources</h2>
@@ -232,11 +248,14 @@ body {
     <p>Lastly, because CSS rules differ sometimes between browsers, there are efforts to promote consistency in styles across browsers. One popular solution to this issue is using what is referred to as a CSS reset such as Normalize.css, a project by Nicholas Gallaher and Jonathan Neal, with their <a href="http://necolas.github.io/normalize.css/">source code</a> available on Github.</p>
 
     <p>Material icons are beautifully crafted, delightful, and easy to use in your web, Android, and iOS projects. <a href="https://material.io/icons/">Learn more</a> about material design and their process for making these icons in the system icons section of the material design guidelines.</p>
+  </div>
 
+  <hr id="linebreak" width="80%" align="center">
 
-  <div id ="technews" class="col-12">
+  <div id="technews" class="col-12">
     <h2>Indy Tech News:</h2>
-    <p><a href="http://usbusiness2020.economist.com/article/a-tech-scene-grows-in-indianapolis/">Tech Scene Grows</a>, from <em>The Economist</em>, published December 13, 2016.</p>
+    <p><a href="http://usbusiness2020.economist.com/article/a-tech-scene-grows-in-indianapolis/">Tech Scene Grows</a>, <b>The Economist</b>, <em>December 13, 2016</em></p>
+    <p><a href="http://www.ibj.com/articles/62880-salesforce-expansion-will-fill-one-quarter-of-salesforce-tower">Salesforce Expansion</a>, <b>The Indianapolis Business Journal</b>, <em>March 11, 2017</em></p>
   </div>
 
   <div class="col-12">
