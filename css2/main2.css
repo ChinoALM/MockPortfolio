@@ -37,14 +37,14 @@ h3 {
     text-align: center;
     padding-top: 3px;
     padding-bottom: 3px;
-    background-color: #99FF99;
+    /*background-color: #99FF99;*/
     font-size: 20px;
 }
 
 h4 {
     text-align: left;
-    color: #ffffff;
-    font-size: 13px;
+    color: #99FF99;
+    font-size: 15px;
     padding-top: 2px;
 }
 
@@ -65,7 +65,7 @@ p {
 #rcorners1 {
     float: right;
     border-radius: 25px;
-    background: #99FF99;
+    background: #003333;
     padding: 2px;
     width: 100%;
     height: auto;
@@ -73,7 +73,7 @@ p {
 
 #rcorners2 {
     border-radius: 25px;
-    background: #99FF99;
+    background: #003333;
     padding: 2px;
 }
 
@@ -83,7 +83,7 @@ p {
     text-align: center;
 }
 
-#list {
+a, #list {
     color: #ffffff;
 }
 
@@ -102,13 +102,18 @@ p {
     border-bottom-right-radius: 15px;
 }
 
-/*#linebreak1 {
-    color: #ffffff
+#linebreak1 {
+    border: 0;
+    height: 7px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(153,255,153, 0.75), rgba(0, 0, 0, 0));
 }
 
 #linebreak2 {
-    color: #99FF99;
-}*/
+    border: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(153,255,153, 0.75), rgba(0, 0, 0, 0));
+}
+
 
 .img-responsive {
     width: 100%;
