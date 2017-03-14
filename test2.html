@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>PortfolioMockup</title>
   <link rel="stylesheet" type="text/css" href="css2/main2.css">
-   <link href="https://fonts.googleapis.com/css?family=Merienda:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merienda:700" rel="stylesheet">
 
 <style>
 body {
@@ -87,28 +87,28 @@ body {
     <p id="quote">"Illuminate the night. Let your light shine bright"</p>
   </div>
 
-  <hr id="linebreak1" width="80%" align="center">
+  <hr class="linebreak1">
 
   <div class="col-12">
     <h2 id="aboutme">About Me</h2>
   </div>
 
   <div class="col-3">
-    <img class="img-responsive" id="rcorners3" src="images2/wabash_copy.jpg" alt="wabash">
+    <img class="img-responsive" id="linkedin" src="images2/wabash_copy.jpg" alt="wabash">
     <h3 id="rcorners5"><a href="https://www.linkedin.com/in/anthony-morton-74615a33/">LinkedIn</a></h3></div>
 
   <div class="col-3">
-    <img class="img-responsive" id="rcorners3" src="images2/iozzos_copy.jpg" alt="work">
+    <img class="img-responsive" id="iozzos" src="images2/iozzos_copy.jpg" alt="work">
     <h3><a href="https://www.opentable.com/iozzos-garden-of-italy">Reviews</a></h3></div>
 
   <div class="col-3">
-    <img class="img-responsive" id="rcorners3" src="images2/iot.jpg" alt="iot">
+    <img class="img-responsive" id="git" src="images2/iot.jpg" alt="iot">
     <h3><a href="https://github.com/ChinoALM">Github</a></h3></div>
 
   <div class="col-3">
-    <img class="img-responsive" id="rcorners3" src="images2/mikeandme_copy.jpg" alt="friendship"><h3 id="rcorners6"><a href="https://www.google.com/maps/@40.2847843,-92.5265727,4.14z">Travels</a></h3></div>
+    <img class="img-responsive" id="travel" src="images2/mikeandme_copy.jpg" alt="friendship"><h3 id="rcorners6"><a href="https://www.google.com/maps/@40.2847843,-92.5265727,4.14z">Travels</a></h3></div>
 
-  <hr id="linebreak1" width="80%" align="center">
+  <hr class="linebreak1">
 
   <div class="col-12">
     <h2 id="stage0">Stage 0: The Basics of the Web and HTML</h2>
@@ -117,18 +117,17 @@ body {
 
     <p>The Internet was created in the early 1990s, and has some 30 billion webpages at this time; which, if I'm being completely honest, surprised me quite a bit. Components of the web include: a) <b>the user, you and your computer running a web browser</b> such as Chrome (which is what I prefer), Safari, Firefox, and Internet Explorer; b) <b>the Internet</b>; and c) <b>servers</b>; computers that are optimized for hosting files).</p>
 
-    <p>HTML stands for <em>HyperText Markup Language</em> and it is the heart of the web making the web, "weblike." <br><br> Accordingly, HTML is made up of:
-    <ul id="list">
+    <p>HTML stands for <em>HyperText Markup Language</em> and it is the heart of the web making the web, "weblike." <br><br> Accordingly, HTML is made up of:</p>
+    <ul class="list">
       <li>text content, or <em>what you see</em></li>
       <li>markup, or <em>what it looks like</em></li>
       <li>linkes to other pages, or <em>hyperlinks</em></li>
       <li>references to other documents, such as <em>images, videos, etc.</em></li>
     </ul>
-    </p>
 
     <p>To troubleshoot issues you may experience with your HTML code, check out this website to <a href="https://validator.w3.org/#validate_by_input">validate your HTML code.</a></p><br>
 
-    <hr id="linebreak2" width="30%" align="center">
+    <hr class="linebreak2">
 
     <p><b>Tags and Elements:</b></p>
 
@@ -139,10 +138,10 @@ body {
     <br><br>
 
     <div class="col-12">
-      <img id="linkpower" class="img-responsive" src="images2/htmlattr.jpg"></p><br>
+      <img id="linkpower" class="img-responsive" src="images2/htmlattr.jpg" alt="htmlattr">
     </div>
 
-    <hr id="linebreak2" width="30%" align="center">
+    <hr class="linebreak2">
 
     <div class="col-12">
       <p><b>Inline v. block elements v. container elements:</b><p>
@@ -154,7 +153,7 @@ body {
       <p>Also, re: span and div tags specifically, other tags, such as p, h1, h2, b, u, etc., already have some styling attached to them, as to being the bare bones structures span and divs have to which you can map with styling of your choosing. If you want to further develop great html pages, it's really about divs and how you can layer boxes on top of each other, "like lego blocks"-Instructor Name</p>
     </div>
 
-  <hr id="linebreak1" width="80%" align="center">
+  <hr class="linebreak1">
 
   <div id="stage1" class="col-12">
     <h2>Stage 1: Using HTML to Create a Structured Document</h2>
@@ -162,7 +161,7 @@ body {
     <p><b>Translating a Visual Design Into a Website:</b></p>
 
     <p>First, you must build a good conceptual understanding of how websites work. I really liked Jessica's analogy likening the building of a website to a house in that <b>HTML files are the structure</b>, i.e. where walls are placed, and which rooms are your kitchen, dining room, living room, bedroom, etc. <b>CSS files then, are the styles</b> of your house:</p>
-    <p><ul id="list">
+    <ul class="list">
       <li>What color is the carpeting in each room?</li>
       <li>What color are the walls?</li>
       <li>What kind of decorations on your wall?</li>
@@ -170,23 +169,25 @@ body {
       <li>What is the of your ceiling?</li>
       <li>Are there windows? If so, how many?</li>
       <li>Do all the rooms have windows?</li>
-    </ul></p>
+    </ul>
 
     <p>And these questions could go on, and on. Just as there are thousands of questions and ways (answers) to style, and thus build, a house, a website can be built the same way, conceptually. <b>Javascript files then</b> are the interactive components of your house, like the garage door opener, dimmer faders on light switches, or the remote to your entertainment center, TV, or stereo system that can <b>change some element of your house</b>.</p><br>
 
-    <hr id="linebreak2" width="30%" align="center">
+    <hr class="linebreak2">
 
     <p><b>Developer Tools:</b></p>
 
     <p>Developer Tools is an incredible tool for designers that shows designers the structure of a webpage, as the browswer interprets it. To use Developer Tools for your webpage, simply open your file in Chrome, right click on your webpage, and select <b>Inspect</b> found at the bottom of the pop-up menu. Once developer tools opened, the dockside was displayed at the bottom of my window:<br><br>
 
     <div class="col-12">
-      <img id="dockbottom" class="img-responsive" src="images2/dtools1.jpg"></p></div>
+      <img id="dockbottom" class="img-responsive" src="images2/dtools1.jpg" alt="dtools1">
+    </div><br>
 
-    <p>However, I'd suggest changing your view so that your dock is placed to the right. In the bottom-right corner in the above screenshot, you can see how to change the display location of your dock, resulting in:<br><br>
+    <p>However, I'd suggest changing your view so that your dock is placed to the right. In the bottom-right corner in the above screenshot, you can see how to change the display location of your dock, resulting in:</p><br>
 
     <div class="col-12">
-      <img id="dockright" class="img-responsive" src="images2/dtools2.jpg"></p></div>
+      <img id="dockright" class="img-responsive" src="images2/dtools2.jpg" alt="dtools2">
+    </div>
 
     <p>Doing so made it easier for me to see my code in the browser (left side), while simultaneously viewing the elements tab, in which your coding tree is displayed (center), along with the styles column (right side).</p>
 
@@ -194,7 +195,7 @@ body {
 
     <p>Lastly, while in Developer Tools, you can also select the type of media screen you'd like to test your code in, including Galaxy S5, Nexux 5X, Nexus 6P, iPhone 5, iPhone 6, iPhone 6 Plus, iPad, and the iPadPro, as is displayed in the drop down menu in the top-left corner in the above screenshot. Be sure to use this feature when you're designing your own sites!</p><br>
 
-    <hr id="linebreak2" width="30%" align="center">
+    <hr class="linebreak2">
 
     <p><b>Boxes Everywhere, Grids, and Rules:</b></p>
 
@@ -212,14 +213,14 @@ body {
     Divs are block elements (as opposed to inline), so by default they take up the entire width of a page.
     Adding the rule display: flex; to the appropriate CSS will override this behavior and let divs appear next to each other.</p><br>
 
-    <hr id="linebreak2" width="30%" align="center">
+    <hr class="linebreak2">
 
     <p><b>Adding CSS Style and HTML Structure:</b></p>
     <p>One of the most important rules of computer programming: Don't repeat yourself. It is essential to avoid repition in all areas of programming. Enter CSS or Cascading Style Sheets, which does imply the use of several CSS files that will be referenced to by HTML, all of which will impact the final, visable style of your webpage. Cascading really means the employment of the most specific rule that can be applied. Jessica described it as: "You keep going down, and down into the rule, until you find the one that best describes the elements."</p>
 
     <p>Search and Replace: You You can also think about CSS as a search and replace tool: you identify a class or a tag of the element you want to find (or match, in CSS terminology), and then what you want to do with it, or what property values to replace with different ones.</p><br>
 
-    <hr id="linebreak2" width="30%" align="center">
+    <hr class="linebreak2">
 
     <!--Order Matters
     It also matters where you define the rules and in what order they are applied. Styles can be defined in different places and are applied in the following order, with definitions further down the list overwriting previous definitions:<br>
@@ -259,7 +260,7 @@ body {
     <p>Lastly, adding an alt to an element, to an image, for example, because it helps people with accesibility issues, say people who can't see well or if they are unable to view a computer, there are programs that read outloud, the text of a website.</p>
   </div>
 
-  <hr id="linebreak1" width="80%" align="center">
+  <hr class="linebreak1">
 
   <div id="resources">
     <h2>Guides and Resources</h2>
@@ -273,7 +274,7 @@ body {
     <p>Material icons are beautifully crafted, delightful, and easy to use in your web, Android, and iOS projects. <a href="https://material.io/icons/">Learn more</a> about material design and their process for making these icons in the system icons section of the material design guidelines.</p>
   </div>
 
-  <hr id="linebreak1" width="80%" align="center">
+  <hr class="linebreak1">
 
   <div id="technews" class="col-12">
     <h2>Indy Tech News</h2>
@@ -281,7 +282,7 @@ body {
     <p><a href="http://www.ibj.com/articles/62880-salesforce-expansion-will-fill-one-quarter-of-salesforce-tower">Salesforce Expansion</a>, <b>The Indianapolis Business Journal</b>, <em>March 11, 2017</em></p>
   </div>
 
-  <hr id="linebreak1" width="80%" align="center">
+  <hr class="linebreak1">
 
   <footer id="footer"><br>
       <p>&copy; 2017 Anthony L Morton</p>
