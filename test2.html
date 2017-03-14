@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head id="header">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>PortfolioMockup</title>
   <link rel="stylesheet" type="text/css" href="css2/main2.css">
-  <link href="https://fonts.googleapis.com/css?family=Merienda:700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Merienda:700" rel="stylesheet">
 
 <style>
 body {
@@ -134,18 +134,26 @@ body {
 
     <p>Computers interpret language literally, so it makes sense that computer programming languages are designed to limit ambiguity. HTML documents are made up of HTML elements, and tags typically bookmark the content of an element with an opening and closing tag. These tags help computers interpret the HTML you've written with more specificity, giving your webpage more structure, and design. Tags can be used to <b>bold</b>, <em>italicize</em>, or <u>underline</u> words of text, for example. For an HTML Element Reference table in which HTML tags are ordered alphabetically, contain a description, and a note as to if that tag is supported by the current version of HTML, HTML 5, click <a href="https://www.w3schools.com/TAgs/">here</a>.</p>
 
-    <p>Additonally, some elements accept values called attributes in their opening tags that provide additional information to the browser, such as the anchor tag attribute that was drawn up by, and explained, by Scott. I found this example very teachable because this anchor tag creates the hyperlink, or link, demonstrating the power of the connectivity of the web with such a simple line of code:<br><br>
-    <img class="linkpower" src="images/attr.jpg"></p><br>
+    <p>Additonally, some elements accept values called attributes in their opening tags that provide additional information to the browser, such as the anchor tag attribute that was drawn up by, and explained, by Scott. I found this example very teachable because this anchor tag creates the hyperlink, or link, demonstrating the power of the connectivity of the web with such a simple line of code:</p></div>
+
+    <br><br>
+
+  <div class="col-12">
+    <div class="col-6">
+      <img id="linkpower" src="images2/htmlattr.jpg"></p><br>
+    </div>
 
     <hr id="linebreak2" width="30%" align="center">
 
-    <p><b>Inline v. block elements v. container elements:</b><p>
+    <div class="col-6">
+      <p><b>Inline v. block elements v. container elements:</b><p>
 
-    <p>Inline elements are just text, which code displays in a line in your browser window. There can be several spaces between the text of code, called whitespace, but unless otherwise styled, the text will simply end in its current line, and go to the next, such as when the single line break tag, br, is used. Also, don't forget that images are inline elements. However, unlike inline elements, block elements actually form a box around the text to which heights, and widths can be applied. Examples of block elements include p and div tags.</p>
+      <p>Inline elements are just text, which code displays in a line in your browser window. There can be several spaces between the text of code, called whitespace, but unless otherwise styled, the text will simply end in its current line, and go to the next, such as when the single line break tag, br, is used. Also, don't forget that images are inline elements. However, unlike inline elements, block elements actually form a box around the text to which heights, and widths can be applied. Examples of block elements include p and div tags.</p>
 
-    <p>It follows then, that container elements do nothing but contain stuff inside them. Container elements can be styled <b>inline</b> via the span tag, or <b>block</b> via the div tag, to which complex styling can be applied in CSS. The important thing to remember is to use span tag if you want to add style, inline, to your webpage without affecting the format of your webpage you've created using div tags.</p>
+      <p>It follows then, that container elements do nothing but contain stuff inside them. Container elements can be styled <b>inline</b> via the span tag, or <b>block</b> via the div tag, to which complex styling can be applied in CSS. The important thing to remember is to use span tag if you want to add style, inline, to your webpage without affecting the format of your webpage you've created using div tags.</p>
 
-    <p>Also, re: span and div tags specifically, other tags, such as p, h1, h2, b, u, etc., already have some styling attached to them, as to being the bare bones structures span and divs have to which you can map with styling of your choosing. If you want to further develop great html pages, it's really about divs and how you can layer boxes on top of each other, "like lego blocks"-Instructor Name</p>
+      <p>Also, re: span and div tags specifically, other tags, such as p, h1, h2, b, u, etc., already have some styling attached to them, as to being the bare bones structures span and divs have to which you can map with styling of your choosing. If you want to further develop great html pages, it's really about divs and how you can layer boxes on top of each other, "like lego blocks"-Instructor Name</p>
+    </div>
   </div>
 
   <hr id="linebreak1" width="80%" align="center">
@@ -173,9 +181,14 @@ body {
     <p><b>Developer Tools:</b></p>
 
     <p>Developer Tools is an incredible tool for designers that shows designers the structure of a webpage, as the browswer interprets it. To use Developer Tools for your webpage, simply open your file in Chrome, right click on your webpage, and select <b>Inspect</b> found at the bottom of the pop-up menu. Once developer tools opened, the dockside was displayed at the bottom of my window:<br><br>
-    <img class="dockbottom" src="images/devtools1.jpg"></p>
 
-    <p>However, I'd suggest changing your view so that your dock is placed to the right. In the bottom-right corner in the above screenshot, you can see how to change the display location of your dock, resulting in:<br><br><img class="dockright" src="images/devtools2.jpg"></p>
+    <div class="col-12">
+      <img id="dockbottom" src="images2/dtools1.jpg"></p></div>
+
+    <p>However, I'd suggest changing your view so that your dock is placed to the right. In the bottom-right corner in the above screenshot, you can see how to change the display location of your dock, resulting in:<br><br>
+
+    <div class="col-12">
+      <img id="dockright" src="images2/dtools2.jpg"></p></div>
 
     <p>Doing so made it easier for me to see my code in the browser (left side), while simultaneously viewing the elements tab, in which your coding tree is displayed (center), along with the styles column (right side).</p>
 
@@ -187,7 +200,19 @@ body {
 
     <p><b>Boxes Everywhere, Grids, and Rules:</b></p>
 
-    <p>Almost everything on a webpage is built on a grid system using boxes in the shapes of either squares or rectangles, which is an important concept to understand as a Front-End Designer because the quicker you learn this, the easier your life will be. If you feel like you want to be able to control the layout of your webpage(s), think in boxes and ask: how can I put boxes within other boxes to control the layout I want?</p><br>
+    <p>Almost everything on a webpage is built on a grid system using boxes in the shapes of either squares or rectangles, which is an important concept to understand as a Front-End Designer because the quicker you learn this, the easier your life will be. If you feel like you want to be able to control the layout of your webpage(s), think in boxes and ask: how can I put boxes within other boxes to control the layout I want?<br>Box Sizing and Positioning Summary
+    Box Sizing
+    There are four main points that Jessica addressed about box sizing.
+
+    HTML elements are boxes and each box has 4 components.
+    Because there are so many components to each box, it can often be hard to get the size of a box just right. There are two techniques you can use to help deal with sizing issues:
+
+    Set sizes in terms of percentages rather than pixels.
+    Set the box-sizing attribute to border-box for every element
+    Different browsers work slightly differently. Sometimes this causes different browsers to display the same code differently.
+    Box Positioning
+    Divs are block elements (as opposed to inline), so by default they take up the entire width of a page.
+    Adding the rule display: flex; to the appropriate CSS will override this behavior and let divs appear next to each other.</p><br>
 
     <hr id="linebreak2" width="30%" align="center">
 
@@ -241,7 +266,7 @@ body {
   <div id="resources">
     <h2>Guides and Resources</h2>
 
-    <p>The best tips and tricks on CSS selectors can be found <a href="https://css-tricks.com/how-css-selectors-work/">here</a>! I'd recommend adding this page to your bookmarks for future reference and study. Furthermore, click <a href="https://css-tricks.com/almanac/">here</a> for <b>an entire Almanac that covers all CSS selectors</b>, as well as their properties.</p>
+    <p>The best tips and tricks on CSS selectors can be found <a href="https://css-tricks.com/how-css-selectors-work/">here</a>! I'd recommend adding this page to your bookmarks for future reference and study. Furthermore, click <a href="https://css-tricks.com/almanac/">here</a> for <b>an entire Almanac that covers all CSS selectors</b>, as well as their properties. To verify CSS: http://jigsaw.w3.org/css-validator/#validate_by_input</p>
 
     <p><b>Mozilla Developer Network</b> also has great pages full of wisdom regarding <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS reference</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning">HTML element reference</a>, and how to use <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines#The_HTML5_Outline_Algorithm">HTML sections and outlines</a>.</p>
 
@@ -260,11 +285,7 @@ body {
 
   <hr id="linebreak1" width="80%" align="center">
 
-  <div class="col-12">
-    <p>You miss 100% of the shots you don't take; so what have you done today to better your tomorrow?</p>
-  </div>
-
-  <footer id="copyright">
+  <footer id="footer"><br>
       <p>&copy; 2017 Anthony L Morton</p>
   </footer>
 

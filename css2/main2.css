@@ -65,7 +65,7 @@ p {
 #rcorners1 {
     float: right;
     border-radius: 25px;
-    background: #003333;
+    background: #99FF99;
     padding: 2px;
     width: 100%;
     height: auto;
@@ -73,7 +73,7 @@ p {
 
 #rcorners2 {
     border-radius: 25px;
-    background: #003333;
+    background: #99FF99;
     padding: 2px;
 }
 
@@ -86,6 +86,14 @@ p {
 a, #list {
     color: #ffffff;
 }
+
+/*#linkpower, #dockbottom, #dockright, {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    border: 2px solid;
+    border-color: #99FF99;
+}*/
 
 #rcorners3, #rcorners4 {
     border-radius: 25px;
@@ -113,7 +121,6 @@ a, #list {
     height: 4px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(153,255,153, 0.75), rgba(0, 0, 0, 0));
 }
-
 
 .img-responsive {
     width: 100%;
