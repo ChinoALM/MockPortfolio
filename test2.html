@@ -57,6 +57,7 @@ body {
   .sidenav a {font-size: 18px;}
 }
 </style>
+
 </head>
 <body>
 <div class="grid">
@@ -79,11 +80,11 @@ body {
   </div>
 
   <div class="col-4">
-    <img id="rcorners1" src="images2/headshot_copy.jpg" alt="headshot">
+    <img id="portrait" class="img-responsive" src="images2/headshot_copy.jpg" alt="headshot">
   </div>
 
   <div class="col-12">
-    <img class="img-responsive" id="rcorners2" src="images2/electricfw.jpg" alt="ferriswheel">
+    <img id="fw" class="img-responsive" src="images2/electricfw.jpg" alt="ferriswheel">
     <p id="quote">"Illuminate the night. Let your light shine bright"</p>
   </div>
 
@@ -171,13 +172,13 @@ body {
       <li>Do all the rooms have windows?</li>
     </ul>
 
-    <p>And these questions could go on, and on. Just as there are thousands of questions and ways (answers) to style, and thus build, a house, a website can be built the same way, conceptually. <b>Javascript files then</b> are the interactive components of your house, like the garage door opener, dimmer faders on light switches, or the remote to your entertainment center, TV, or stereo system that can <b>change some element of your house</b>.</p><br>
+    <p>And these questions could go on, and on. Just as there are thousands of questions and ways (answers) to style, and thus build, a house, a website can be built the same way, conceptually. Javascript files then are the interactive components of your house, like the garage door opener, dimmer faders on light switches, or the remote to your entertainment center, TV, or stereo system that can <em>change some element of your house</em>.</p><br>
 
     <hr class="linebreak2">
 
     <h5>Developer Tools:</h5>
 
-    <p>Developer Tools is an incredible tool for designers that shows designers the structure of a webpage, as the browswer interprets it. To use Developer Tools for your webpage, simply open your file in Chrome, right click on your webpage, and select <b>Inspect</b> found at the bottom of the pop-up menu. Once developer tools opened, the dockside was displayed at the bottom of my window:<br><br>
+    <p>Developer Tools is an incredible tool for designers that shows designers the structure of a webpage, as the browswer interprets it. To use Developer Tools for your webpage, simply open your file in Chrome, right click on your webpage, and select "Inspect" found at the bottom of the pop-up menu. Once developer tools opened, the dockside was displayed at the bottom of my window:<br><br>
 
     <div class="col-12">
       <img id="dockbottom" class="img-responsive" src="images2/dtools1.jpg" alt="dtools1">
@@ -205,7 +206,7 @@ body {
       <li>Set the box-sizing attribute to border-box for every element.</li>
     </ol>
 
-    <p>REMEMBER the rule "display: flex;" to the appropriate CSS will override default div behavior that automatically extends the width of divs to your entire webpage.</p>
+    <p>REMEMBER the rule "display: flex;" applied to the appropriate CSS will override default div behavior that automatically extends the width of divs to your entire webpage within a browser window.</p>
 
     <br>
 
@@ -215,20 +216,20 @@ body {
 
     <p>DO NOT REPEAT yourself is one of the most important rules of computer programming. It is essential to avoid repetition in all areas of programming, but doing so is particularly helpful with CSS, or Cascading Style Sheets. Cascading really just means that the employment of the most specific rule that can be applied, will be applied: so ORDER MATTERS!</p>
 
-    <p>Don't forget that cascading rules apply not only to the elements they directly match, but also to all of those elements' child elements. You can also think about CSS as a search and replace tool: you identify a class or a tag of the element you want to find (or match, in CSS terminology), and then what you want to do with it, or what property values to replace with different ones.</p><br>
+    <p>REMEMBER that cascading rules apply not only to the elements they directly match, but also to all of those elements' child elements. You can also think about CSS as a search and replace tool: you identify a class or a tag of the element you want to find (or match, in CSS terminology), and then what you want to do with it, or what property values to replace with different ones.</p><br>
 
     <hr class="linebreak2">
 
     <h5>Element ID v. Element Class v. Element Alt</h5>
 
-    <p>What's the purpose of an element id? An element's ID is used to uniquely identify SINGULAR elements in an html document, so that that element is the only one with that specific id, allowing you to directly target it with your styling.What's the purpose of an element class? An element's class refers to a group of elements that can be styled together, such as class="img-responsive" for images you have on your website that you want say, that same type of border around, for some reason, etc. Class names should not contain periods or any other punctuation marks.</p>
+    <p>What's the purpose of an element id? An element's ID is used to uniquely identify SINGULAR elements in an html document, so that that element is the only one with that specific id, allowing you to directly target it with your styling.What's the purpose of an element class? An element's CLASS refers to a GROUP of elements that can be styled together, such as class="img-responsive" for images you have on your website that you want say, the same type of border around, for some reason, etc. Class names should not contain periods or any other punctuation marks.</p>
 
     <p>When styling your classes or id's, be mindful of the units of measurement you, i.e. styling a container element to a certain width via the use of px versus the use of %. Setting px will permanently set the size of your container within the browser window, thus rendering it with design that is non-responsive, as it would be with a width set to 100%. Lastly, adding an alt to an element, to an image, for example, because it helps people with accesibility issues, say people who can't see well or if they are unable to view a computer, there are programs that read outloud, the text of a website.</p>
   </div>
 
   <hr class="linebreak1">
 
-  <div id="resources">
+  <div id="resources" class="col-12">
     <h2>Guides and Resources</h2>
 
     <p>CSS Selector Tricks: <a href="https://css-tricks.com/how-css-selectors-work/">Selectors</a> and <a href="https://css-tricks.com/almanac/">Complete Selector Almanac</a>.</p>
@@ -238,6 +239,7 @@ body {
     <p>Validators: <a href="https://validator.w3.org/#validate_by_input">HTML</a> and <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">CSS</a>.</p>
 
     <p>Lastly, because CSS rules differ sometimes between browsers, there are efforts to promote consistency in styles across browsers. One popular solution to this issue is using what is referred to as a CSS reset such as Normalize.css, a project by Nicholas Gallaher and Jonathan Neal, with their <a href="http://necolas.github.io/normalize.css/">source code</a> available on Github.</p>
+  </div>
 
   <hr class="linebreak1">
 

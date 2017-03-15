@@ -9,8 +9,12 @@
     box-sizing: border-box;
 }
 
-/* head {
-    {
+/*=======NAV BAR template discovered at W3C Schools======
+I, however, made styling changes with transition time,
+padding, font-family, etc. to make it's design specific to
+what I want it to look like on my mock website.
+
+head {
     transition: background-color .5s;
 }
 
@@ -56,7 +60,9 @@
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}*/
+}
+
+==============END NAV BAR===========*/
 
 h1, h2, h3, h4 {
     font-family: 'Merienda', cursive;
@@ -120,7 +126,7 @@ p {
     background-color: #003333;
 }
 
-#rcorners1 {
+#portrait {
     float: right;
     border-radius: 25px;
     background: #99FF99;
@@ -129,7 +135,7 @@ p {
     height: auto;
 }
 
-#rcorners2 {
+#fw {
     border-radius: 25px;
     background: #99FF99;
     padding: 2px;
@@ -144,14 +150,6 @@ p {
 a, .list {
     color: #ffffff;
 }
-
-/*#linkpower, #dockbottom, #dockright, {
-    width: 100%;
-    height: auto;
-    border-radius: 25px;
-    border: 2px solid;
-    border-color: #99FF99;
-}*/
 
 #linkedin, #iozzos, #git, #travel, #rcorners4 {
     border-radius: 25px;
