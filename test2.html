@@ -289,13 +289,40 @@ body {
 
     <hr class="linebreak2">
 
-    <h5>Variables and Strings</h5>
+    <h5>Python Variables</h5>
 
     <p>In Python, we can use a variable to create a name and use that name to refer to a variable. The way to introduce a variable is to use an assignment statement. For an assignment statement: Name = Expression. The name on the left side refers to the value that the expression has. The name can be any sequence of letters and numbers, as well as underscores, as long as it starts with a letter or an underscore.</p>
 
     <p>The important thing about variables in Pythin is that they can vary, that's why they're called variables. When we define the variable, we can change the value. And then when we use that name again, it refers to the new value. REMEMBER that a variable has to be introduced before it can be used, before it can be assigned the value which then replaces the name until the end terminal has been reached. Also, keep variables to all lower case letters, if possible. There isn't a rule against it in Python, but it is apprently a convention amongst developrs to keep variables lower-case.</p>
 
+    <hr class="linebreak2">
+
+    <h5>Python Strings</h5>
+
     <p>In Python a string is just a sequence of characters surrounded by quotes. Strings can begin with either single, or double quotes, and the only requirement is that it must end with the same quotation as to which the string was begun. With the introduction of a plus sign (+) as an operator, say i.e. name = 'Anthony', then print 'Hello' + name, in which the plus means concatenation of the two strings. We cannot, however and numbers to strings. We can, however, multiply strings by numbers.</p>
+
+    <p>One of the things we can do wi th strings that we cannot do with numbers is extract sequences from the strings. REMEMBER that a string is a sequence of characters, and such strings can be indexed. Indexing strings start at 0, and move to 1, 2, 3, +...etc. A common IndexError includes string index out of range if your number in the bracket is beyond the number of sequence of characters within your string. However, by using negative numbers in my index, it will start counting from the back of the string; i.e, index negative 1 will go as the last chararacter in the string, index negative 2 will go as the second to last character in the string, etc., until your negative mumbers take you to the last, or 0 sequence, of the string.</p>
+
+    <hr class="linebreak2">
+
+    <h5>Selecting Sub-Sequences From Strings</h5>
+
+    <p>So far we've used indexing, where we have a string, then our left square bracket with some expression that produces one number, closed by our right square bracket which gives us a one-character string. The other thing we can do with square brackets is select a sub-sequence of the string. Instead of just having one expression here, there can be an expression that should evaluate to a number, followed by a colon, and then followed by another expression that should evaluate to a number before the right bracket is used. This will evaluate to a string that is a subsequence of the characters in the input string, with the first expression on the left of the colon having a value of a number equal to start and the second expression to the right of the colon having a value of a number equal through stop minus 1.</p>
+
+    <hr class="linebreak2">
+
+    <h5>Finding Strings in Strings</h5>
+
+    <p></p>
+
+    <div class="col-12">
+      <img id="string" class="img-responsive" src="images2/pythonstring.jpg" alt="subsequence">
+    </div><br>
+
+    <p>This contruct allows us to select from any string a subsequence of continuous characters in that string. </p>
+
+
+
   </div>
 
   <hr class="linebreak1">
