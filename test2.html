@@ -301,7 +301,7 @@ body {
 
     <p>In Python a string is just a sequence of characters surrounded by quotes. Strings can begin with either single, or double quotes, and the only requirement is that it must end with the same quotation as to which the string was begun. With the introduction of a plus sign (+) as an operator, say i.e. name = 'Anthony', then print 'Hello' + name, in which the plus means concatenation of the two strings. We cannot, however and numbers to strings. We can, however, multiply strings by numbers.</p>
 
-    <p>One of the things we can do wi th strings that we cannot do with numbers is extract sequences from the strings. REMEMBER that a string is a sequence of characters, and such strings can be indexed. Indexing strings start at 0, and move to 1, 2, 3, +...etc. A common IndexError includes string index out of range if your number in the bracket is beyond the number of sequence of characters within your string. However, by using negative numbers in my index, it will start counting from the back of the string; i.e, index negative 1 will go as the last chararacter in the string, index negative 2 will go as the second to last character in the string, etc., until your negative mumbers take you to the last, or 0 sequence, of the string.</p>
+    <p>One of the things we can do with strings that we cannot do with numbers is extract sequences from the strings. REMEMBER that a string is a sequence of characters, and such strings can be indexed. Indexing strings start at 0, and move to 1, 2, 3, +...etc. A common IndexError includes string index out of range if your number in the bracket is beyond the number of sequence of characters within your string. However, by using negative numbers in my index, it will start counting from the back of the string; i.e, index negative 1 will go as the last chararacter in the string, index negative 2 will go as the second to last character in the string, etc., until your negative mumbers take you to the last, or 0 sequence, of the string.</p>
 
     <hr class="linebreak2">
 
@@ -309,18 +309,35 @@ body {
 
     <p>So far we've used indexing, where we have a string, then our left square bracket with some expression that produces one number, closed by our right square bracket which gives us a one-character string. The other thing we can do with square brackets is select a sub-sequence of the string. Instead of just having one expression here, there can be an expression that should evaluate to a number, followed by a colon, and then followed by another expression that should evaluate to a number before the right bracket is used. This will evaluate to a string that is a subsequence of the characters in the input string, with the first expression on the left of the colon having a value of a number equal to start and the second expression to the right of the colon having a value of a number equal through stop minus 1.</p>
 
-    <hr class="linebreak2">
-
-    <h5>Finding Strings in Strings</h5>
-
-    <p></p>
-
     <div class="col-12">
       <img id="string" class="img-responsive" src="images2/pythonstring.jpg" alt="subsequence">
     </div><br>
 
     <p>This contruct allows us to select from any string a subsequence of continuous characters in that string. </p>
 
+    <hr class="linebreak2">
+
+    <h5>Finding Strings in Strings</h5>
+
+    <p>The find operation gives us the way to find some sub-strings in a big string that we're looking for. The way we use Find is a little different from the way we've used other operators so far, because Find is actually a method, and that means that it's a built in procedure provided by Python. When the find input is not found Python will output a -1.</p>
+
+    <div class="col-12">
+      <img id="findstring" class="img-responsive" src="images2/stringsinstrings.jpg" alt="find">
+    </div><br>
+
+    <p>You may be feeling a little uncomfortable with find. You may have an idea of what it does, and you might be able to use it, but how does it work?! What's a parameter? In this code: "text".find("t") the "t" is a parameter. Next, you're going to see code like: "text".find("t", 1) and in this case, there are two parameters, "t" and 1. Parameters are what go inside the parentheses.</p>
+
+    <p> Furthermore, strings can be found with numbers, as was illustrated by my Udacity instructor:</p>
+
+    <div class="col-12">
+      <img id="findwnumbers" class="img-responsive" src="images2/findingwithnumbers.jpg" alt="findstringwithnumbers">
+    </div><br>
+
+    <p>Above, in line 3, when we pass in 25 for the number, it takes us to 25, or the second 'audace'. If we pass in 26, Python will start searching at index 26, or position 26, which is pass the second 'audace', and will move to the third, printing out the index where the third 'audace' begins, 47. Position 47 is then the final occurance of 'audace' and printing 47 to the end in line 5 results in audace. Starting then, at position 48 will result in an output of -1 because although the string 'audace' occurs many times in the string danton, it doesn't occur at all starting from position 48.</p>
+
+    <hr class="linebreak2">
+
+    <h5>Replacing Strings</h5>
 
 
   </div>
