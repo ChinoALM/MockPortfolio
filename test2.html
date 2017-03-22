@@ -343,6 +343,32 @@ body {
       <img id="replace" class="img-responsive" src="images2/replacestring.jpg" alt="replacemethodforstrings">
     </div><br>
 
+    <hr class="linebreak2">
+
+    <h5>Python Functions</h5>
+
+    <p>Functions are one of the most foundational things you will do as a competent developer, as they are one of the smaller bits of the programming world that you will use daily. If functions did not exist, we wouldn't be able to program as efficiently, or as elegantly, as we do now. Functions, also known as procedures in Python, are bits of code you can call repetively after having been defined just once. To make a function, you start with a def (definition), list some_function and then with parenthesis, list some_parameter, if you have one. Following the right bracket, add a colon, and then indent on the next line below. Whatever code you include here, inside your indentation, is going to be your code that you can use however often you want. Remember to make sure you indent
+    ALL lines of code in your function, if your code is multiple lines long, and then un-indenting back to the same level the function was defined at, will end the function. Again, in Python, the function end is when you un-indent.</p>
+
+    <p>Also note the following about functions: functions create something called a local scope, so that a variable you make inside a function does not exist outside of that function; this is in contrast with a global scope where some variable that you make is available at all times. Even if an outside function has the same name as an inside function, if they don't point to the same object, they will yield different results because they mean different things to the computer as illustrated below from our Stage 2 Youtube Tutorial:</p>
+
+    <div class="col-12">
+      <img id="pyfunction" class="img-responsive" src="images2/pythonfunc.jpg" alt="localversusglobalscope">
+    </div><br>
+
+    <p>It's important to note in the above example, that when some_function is ran, the a = 5 of the inside function is completely destroyed, it ceases to exist. Now, if you take out the local version of a = 5, using #a = 5, and rerun your code, you'll receive a local function of 6, and a global function of 6. Furthermore, when you take out the global version of a = 6, using #a = 6, and rerun your code, the local scope function can be ran, but an error occurs to the "Global: " +str(a) with a NameError: name 'a' is not defined. As a quick aside from the instructor: Global functions are generally a big no-no in programming; stick to local functions as much as possible.</p>
+
+    <p>You can limit your use of global variables when you use parameters for your local variables. A parameter is some value, or values, that can be passed into a function. When using multiple parameters, each parameter must be defined or you will receive a TypeError: some_function() takes exactly 2 arguments (1 given). Here arguments means the same thing as parameters. Remember that with variables, variables point to a value it holds in Python.</p>
+
+    <p>A function will stop where it's at when it meets a Return statement. Even if a print statement exists below a return statement, as a part of the function definition, the print statement won't be read because the program was ended by the Return statement.</p>
+
+    <p><em>Add notes about muteable v. immuteable objects...</em></p>
+
+    <h5>Python Print v. Return Statements</h5>
+
+    <p>The print statement simply puts whatever value you're printing on onto the console at the bottom of your Python window, literally printing to what you as a human, can read, showing you something that you want from the program. Print does not alter the state of the program, or the flow of how the program is running. Return, on the other hand, does nothing to the console, it ends a function, and brings that value of the function to some external variable, if you assign it to that external variable.
+
+
   </div>
 
   <hr class="linebreak1">
